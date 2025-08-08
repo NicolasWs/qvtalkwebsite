@@ -123,8 +123,8 @@ export default function About() {
             <div>
               <h3 className="text-2xl font-bold text-slate-900 mb-2">Market Position</h3>
               <p className="text-slate-700">
-                QVTalk is positioned as a <strong>Niche Player</strong> in the well-being solutions magic quadrant, 
-                representing an innovative approach with strong growth potential.
+                QVTalk is uniquely positioned at the intersection of <strong>Visionaries and Niche Players</strong> in the well-being solutions magic quadrant,
+                representing breakthrough innovation with focused market execution and rapid growth potential.
               </p>
             </div>
           </div>
