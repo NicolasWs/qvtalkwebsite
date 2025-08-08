@@ -1,8 +1,9 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Star, TrendingUp, Shield, Users, Zap } from "lucide-react";
+import { Star, TrendingUp, Shield, Users, Zap, Info } from "lucide-react";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 interface Solution {
   name: string;
