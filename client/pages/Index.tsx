@@ -109,9 +109,17 @@ export default function Index() {
                 <p className="text-sm text-slate-600">Magic Quadrant Analysis</p>
               </div>
             </div>
-            <Badge variant="outline" className="bg-blue-50 text-blue-700 border-blue-200">
-              2024 Edition
-            </Badge>
+            <div className="flex items-center gap-3">
+              <Link to="/about">
+                <Button variant="outline" size="sm" className="gap-2">
+                  <Info className="h-4 w-4" />
+                  About QVTalk
+                </Button>
+              </Link>
+              <Badge variant="outline" className="bg-blue-50 text-blue-700 border-blue-200">
+                2024 Edition
+              </Badge>
+            </div>
           </div>
         </div>
       </header>
