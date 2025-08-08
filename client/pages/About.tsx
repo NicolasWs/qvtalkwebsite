@@ -153,23 +153,23 @@ export default function About() {
             </div>
             
             <div>
-              <h4 className="font-semibold text-slate-900 mb-3">Growth Opportunities</h4>
+              <h4 className="font-semibold text-slate-900 mb-3">Path to Leaders Quadrant</h4>
               <ul className="space-y-2 text-slate-700">
                 <li className="flex items-center gap-2">
                   <div className="h-1.5 w-1.5 bg-purple-500 rounded-full"></div>
-                  Enterprise partnerships and integrations
+                  Scale execution capabilities rapidly
                 </li>
                 <li className="flex items-center gap-2">
                   <div className="h-1.5 w-1.5 bg-purple-500 rounded-full"></div>
-                  Healthcare provider collaborations
+                  Enterprise-grade platform development
                 </li>
                 <li className="flex items-center gap-2">
                   <div className="h-1.5 w-1.5 bg-purple-500 rounded-full"></div>
-                  International market expansion
+                  Strategic partnerships with healthcare leaders
                 </li>
                 <li className="flex items-center gap-2">
                   <div className="h-1.5 w-1.5 bg-purple-500 rounded-full"></div>
-                  Advanced analytics and insights platform
+                  Proven clinical outcomes and validation
                 </li>
               </ul>
             </div>
