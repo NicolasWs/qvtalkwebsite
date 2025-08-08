@@ -248,9 +248,11 @@ export default function Index() {
 
                 {selectedSolution.isQVTalk && (
                   <div className="mt-6 pt-4 border-t border-blue-200">
-                    <Button className="w-full bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white">
-                      Learn More About QVTalk
-                    </Button>
+                    <Link to="/about">
+                      <Button className="w-full bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white">
+                        Learn More About QVTalk
+                      </Button>
+                    </Link>
                   </div>
                 )}
               </Card>
