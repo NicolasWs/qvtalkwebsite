@@ -255,6 +255,14 @@ export default function Index() {
                   Challengers
                 </div>
 
+                {/* QVTalk special positioning indicator */}
+                <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 pointer-events-none">
+                  <div className="w-16 h-16 border-2 border-dashed border-blue-400/50 rounded-full bg-gradient-to-br from-blue-50/30 to-purple-50/30"></div>
+                  <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-xs font-medium text-blue-600 bg-white/90 px-2 py-1 rounded-full whitespace-nowrap">
+                    Transition Zone
+                  </div>
+                </div>
+
                 {/* Axis labels */}
                 <div className="absolute -bottom-8 left-1/2 transform -translate-x-1/2 text-sm font-medium text-slate-600">
                   Completeness of Vision →
