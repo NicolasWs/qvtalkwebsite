@@ -18,68 +18,160 @@ interface Solution {
 const solutions: Solution[] = [
   {
     name: "QVTalk",
-    category: "Niche Players",
-    x: 25,
-    y: 35,
+    category: "Visionary & Niche",
+    x: 50,
+    y: 50,
     description: "Innovative conversational AI for personalized well-being support",
     features: ["AI Conversations", "Personalized Support", "24/7 Availability", "Mental Health Focus"],
     isQVTalk: true
   },
+  // Leaders
   {
-    name: "Headspace",
+    name: "Oracle HCM Cloud",
     category: "Leaders",
     x: 85,
     y: 88,
-    description: "Market-leading meditation and mindfulness platform",
-    features: ["Guided Meditation", "Sleep Stories", "Mindfulness Training", "Corporate Programs"]
+    description: "Enterprise human capital management and well-being platform",
+    features: ["HR Analytics", "Employee Wellness", "Performance Management", "Enterprise Integration"]
   },
   {
-    name: "Calm",
+    name: "SAP SuccessFactors",
     category: "Leaders",
     x: 82,
     y: 85,
-    description: "Comprehensive wellness app for sleep, meditation, and relaxation",
-    features: ["Sleep Programs", "Meditation", "Music & Sounds", "Masterclasses"]
+    description: "Comprehensive workforce management with well-being modules",
+    features: ["Talent Management", "Employee Experience", "Analytics", "Global Reach"]
   },
   {
-    name: "BetterHelp",
+    name: "Informatica",
+    category: "Leaders",
+    x: 78,
+    y: 82,
+    description: "Data management platform with health analytics capabilities",
+    features: ["Data Integration", "Health Analytics", "Cloud Platform", "Enterprise Scale"]
+  },
+  {
+    name: "Qlik",
+    category: "Leaders",
+    x: 80,
+    y: 84,
+    description: "Business intelligence platform with wellness analytics",
+    features: ["Data Visualization", "Self-Service Analytics", "Real-time Insights", "Dashboard Creation"]
+  },
+  // Challengers
+  {
+    name: "PeopleSoft HCM",
     category: "Challengers",
     x: 75,
     y: 65,
-    description: "Online therapy and counseling platform",
-    features: ["Licensed Therapists", "Video Sessions", "Messaging Support", "Flexible Scheduling"]
+    description: "Human capital management with employee wellness features",
+    features: ["HR Management", "Employee Benefits", "Workforce Analytics", "Legacy Integration"]
   },
   {
-    name: "Wellness360",
+    name: "IBM",
+    category: "Challengers",
+    x: 72,
+    y: 68,
+    description: "Enterprise AI and analytics for workforce well-being",
+    features: ["Watson AI", "Predictive Analytics", "Enterprise Solutions", "Global Support"]
+  },
+  {
+    name: "Wellbeing Tech",
+    category: "Challengers",
+    x: 70,
+    y: 62,
+    description: "Technology solutions focused on employee well-being",
+    features: ["Employee Engagement", "Health Monitoring", "Wellness Programs", "Corporate Integration"]
+  },
+  // Visionaries
+  {
+    name: "moka.care",
     category: "Visionaries",
     x: 45,
-    y: 78,
-    description: "Holistic workplace wellness solution",
-    features: ["Employee Wellness", "Analytics", "Corporate Integration", "Health Tracking"]
+    y: 75,
+    description: "Digital mental health platform with innovative therapy approaches",
+    features: ["Digital Therapy", "Mental Health Support", "Personalized Care", "Modern Interface"]
   },
   {
-    name: "MindGarden",
+    name: "Holivia",
+    category: "Visionaries",
+    x: 42,
+    y: 78,
+    description: "Holistic wellness platform with AI-driven insights",
+    features: ["Holistic Wellness", "AI Insights", "Personalized Programs", "Lifestyle Integration"]
+  },
+  {
+    name: "Teale",
+    category: "Visionaries",
+    x: 48,
+    y: 72,
+    description: "Employee well-being platform with advanced analytics",
+    features: ["Employee Wellness", "Advanced Analytics", "Engagement Tools", "Predictive Insights"]
+  },
+  {
+    name: "MoodCapture",
+    category: "Visionaries",
+    x: 52,
+    y: 76,
+    description: "Research-backed mood tracking and analysis (Dartmouth College)",
+    features: ["Mood Tracking", "Research-Based", "Academic Partnership", "Clinical Validation"]
+  },
+  {
+    name: "Earkick",
+    category: "Visionaries",
+    x: 46,
+    y: 74,
+    description: "AI-powered mental health companion with innovative features",
+    features: ["AI Companion", "Mental Health Support", "Innovative UX", "Privacy-First"]
+  },
+  // Niche Players
+  {
+    name: "Moodwork",
+    category: "Niche Players",
+    x: 25,
+    y: 45,
+    description: "Workplace mood and productivity tracking solution",
+    features: ["Mood Tracking", "Productivity Analytics", "Team Insights", "Simple Interface"]
+  },
+  {
+    name: "mindDay",
+    category: "Niche Players",
+    x: 28,
+    y: 42,
+    description: "Daily mindfulness and mental wellness tracking",
+    features: ["Daily Check-ins", "Mindfulness", "Progress Tracking", "Personal Insights"]
+  },
+  {
+    name: "Meditopia",
+    category: "Niche Players",
+    x: 32,
+    y: 48,
+    description: "Meditation and sleep focused wellness application",
+    features: ["Guided Meditation", "Sleep Stories", "Mindfulness Training", "Personalized Content"]
+  },
+  {
+    name: "Wysa",
     category: "Niche Players",
     x: 35,
     y: 45,
-    description: "Gamified mental health and habit tracking",
-    features: ["Habit Tracking", "Gamification", "Community Support", "Progress Visualization"]
+    description: "AI chatbot for mental health support and therapy",
+    features: ["AI Chatbot", "Mental Health Support", "24/7 Availability", "Evidence-Based"]
   },
   {
-    name: "ThrivePlatform",
-    category: "Visionaries",
-    x: 55,
-    y: 72,
-    description: "AI-powered well-being analytics and recommendations",
-    features: ["AI Analytics", "Predictive Insights", "Integration APIs", "Custom Dashboards"]
+    name: "Youper",
+    category: "Niche Players",
+    x: 30,
+    y: 40,
+    description: "AI-powered emotional health assistant",
+    features: ["Emotional Tracking", "AI Assistant", "Mood Analysis", "Personalized Insights"]
   },
   {
-    name: "ZenFlow",
-    category: "Challengers",
-    x: 68,
-    y: 58,
-    description: "Enterprise wellness with real-time stress monitoring",
-    features: ["Stress Monitoring", "Biometric Integration", "Real-time Alerts", "Team Analytics"]
+    name: "Elomia Health",
+    category: "Niche Players",
+    x: 33,
+    y: 43,
+    description: "AI-powered psychology and mental health platform",
+    features: ["AI Psychology", "Mental Health Support", "Therapeutic Conversations", "Clinical Approach"]
   }
 ];
 
