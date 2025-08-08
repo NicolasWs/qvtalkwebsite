@@ -54,6 +54,11 @@
     --sidebar-border: 220 13% 91%;
 
     --sidebar-ring: 217.2 91.2% 59.8%;
+
+    /* QVTalk brand colors */
+    --qvtalk-primary: 221 83% 53%;
+    --qvtalk-secondary: 262 83% 58%;
+    --qvtalk-accent: 199 89% 48%;
   }
 
   .dark {
@@ -92,6 +97,11 @@
     --sidebar-accent-foreground: 240 4.8% 95.9%;
     --sidebar-border: 240 3.7% 15.9%;
     --sidebar-ring: 217.2 91.2% 59.8%;
+
+    /* QVTalk brand colors - dark theme */
+    --qvtalk-primary: 221 83% 58%;
+    --qvtalk-secondary: 262 83% 63%;
+    --qvtalk-accent: 199 89% 53%;
   }
 }
 
