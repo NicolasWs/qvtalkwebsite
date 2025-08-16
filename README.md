@@ -35,17 +35,20 @@ This application presents a comprehensive analysis of well-being and mental heal
 ## 📊 Market Analysis
 
 ### Leaders Quadrant
+
 - Oracle HCM Cloud
-- SAP SuccessFactors  
+- SAP SuccessFactors
 - Informatica
 - Qlik
 
 ### Challengers Quadrant
+
 - PeopleSoft HCM
 - IBM
 - Wellbeing Tech
 
 ### Visionaries Quadrant
+
 - moka.care
 - Holivia
 - Teale
@@ -53,6 +56,7 @@ This application presents a comprehensive analysis of well-being and mental heal
 - Earkick
 
 ### Niche Players Quadrant
+
 - Moodwork
 - mindDay
 - Meditopia
@@ -61,12 +65,14 @@ This application presents a comprehensive analysis of well-being and mental heal
 - Elomia Health
 
 ### QVTalk - Special Positioning
+
 QVTalk is uniquely positioned at the center intersection (Visionary & Niche), representing breakthrough innovation with focused market execution and rapid growth potential toward the Leaders quadrant.
 
 ## 🛠️ Development
 
 ### Prerequisites
-- Node.js 18+ 
+
+- Node.js 18+
 - npm or yarn
 
 ### Installation
@@ -104,6 +110,7 @@ This project is configured for automatic deployment to GitHub Pages using GitHub
 #### Setup Steps:
 
 1. **Push your code** to the repository:
+
    ```bash
    git add .
    git commit -m "Your commit message"
@@ -111,11 +118,13 @@ This project is configured for automatic deployment to GitHub Pages using GitHub
    ```
 
 2. **Enable GitHub Pages**:
+
    - Go to your repository: `https://github.com/NicolasWs/qvtalkwebsite/settings/pages`
    - Under "Source", select **GitHub Actions** (not "Deploy from branch")
    - The workflow will automatically trigger on the next push
 
 3. **Wait for deployment**:
+
    - The GitHub Action will automatically:
      - Install dependencies (`npm ci`)
      - Build the React application (`npm run build:client`)
@@ -138,6 +147,7 @@ This project is configured for automatic deployment to GitHub Pages using GitHub
 Once deployed, you can embed the site in Google Sites:
 
 1. **Add an Embed block**:
+
    - In Google Sites, click "Insert" → "Embed"
    - Paste: `https://nicolasws.github.io/qvtalkwebsite/`
 
@@ -145,10 +155,12 @@ Once deployed, you can embed the site in Google Sites:
    - Click "Insert" → "Embed" → "Embed code"
    - Use this HTML:
    ```html
-   <iframe src="https://nicolasws.github.io/qvtalkwebsite/" 
-           width="100%" 
-           height="800" 
-           frameborder="0">
+   <iframe
+     src="https://nicolasws.github.io/qvtalkwebsite/"
+     width="100%"
+     height="800"
+     frameborder="0"
+   >
    </iframe>
    ```
 
@@ -195,7 +207,7 @@ const solutions: Solution[] = [
     x: 75, // 0-100 (Completeness of Vision)
     y: 80, // 0-100 (Ability to Execute)
     description: "Company description",
-    features: ["Feature 1", "Feature 2", "Feature 3", "Feature 4"]
+    features: ["Feature 1", "Feature 2", "Feature 3", "Feature 4"],
   },
   // ... existing companies
 ];
@@ -212,11 +224,13 @@ const solutions: Solution[] = [
 ### Common Issues:
 
 1. **Site shows raw HTML instead of React app**:
+
    - Ensure GitHub Pages source is set to "GitHub Actions"
    - Check that the workflow completed successfully
    - Verify the base path in `vite.config.ts` matches your repository name
 
 2. **404 errors on GitHub Pages**:
+
    - Confirm the repository name in the base path configuration
    - Check that the workflow uploaded files to the correct directory
 
