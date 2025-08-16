@@ -186,12 +186,16 @@ export default function About() {
             for mental health and well-being support.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-8">
-              Start Your Journey
-            </Button>
-            <Button size="lg" variant="outline" className="border-slate-300 hover:bg-slate-50 px-8">
-              Request Demo
-            </Button>
+            <a href="mailto:info@qvtalk.fr?subject=Start My QVTalk Journey&body=Hello,%0A%0AI'm interested in starting my journey with QVTalk. Please provide me with more information about getting started.%0A%0AThank you!">
+              <Button size="lg" className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-8 w-full">
+                Start Your Journey
+              </Button>
+            </a>
+            <a href="mailto:info@qvtalk.fr?subject=QVTalk Demo Request&body=Hello,%0A%0AI would like to request a demo of QVTalk. Please let me know when we can schedule a demonstration.%0A%0AThank you!">
+              <Button size="lg" variant="outline" className="border-slate-300 hover:bg-slate-50 px-8 w-full">
+                Request Demo
+              </Button>
+            </a>
           </div>
         </div>
       </div>
