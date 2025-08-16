@@ -5,7 +5,7 @@ import { createServer } from "./server";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: mode === 'production' ? '/qvtalkwebsite/' : '/',
+  base: mode === "production" ? "/qvtalkwebsite/" : "/",
   server: {
     host: "::",
     port: 8080,
