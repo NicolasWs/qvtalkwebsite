@@ -209,7 +209,7 @@ export default function Index() {
                 </Button>
               </Link>
               <Badge variant="outline" className="bg-blue-50 text-blue-700 border-blue-200">
-                2024 Edition
+                2025 Edition
               </Badge>
             </div>
           </div>
