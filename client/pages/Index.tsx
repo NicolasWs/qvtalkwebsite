@@ -21,9 +21,15 @@ const solutions: Solution[] = [
     category: "Visionary & Niche",
     x: 50,
     y: 50,
-    description: "Innovative conversational AI for personalized well-being support",
-    features: ["AI Conversations", "Personalized Support", "24/7 Availability", "Mental Health Focus"],
-    isQVTalk: true
+    description:
+      "Innovative conversational AI for personalized well-being support",
+    features: [
+      "AI Conversations",
+      "Personalized Support",
+      "24/7 Availability",
+      "Mental Health Focus",
+    ],
+    isQVTalk: true,
   },
   // Leaders
   {
@@ -32,7 +38,12 @@ const solutions: Solution[] = [
     x: 85,
     y: 88,
     description: "Enterprise human capital management and well-being platform",
-    features: ["HR Analytics", "Employee Wellness", "Performance Management", "Enterprise Integration"]
+    features: [
+      "HR Analytics",
+      "Employee Wellness",
+      "Performance Management",
+      "Enterprise Integration",
+    ],
   },
   {
     name: "SAP SuccessFactors",
@@ -40,7 +51,12 @@ const solutions: Solution[] = [
     x: 82,
     y: 85,
     description: "Comprehensive workforce management with well-being modules",
-    features: ["Talent Management", "Employee Experience", "Analytics", "Global Reach"]
+    features: [
+      "Talent Management",
+      "Employee Experience",
+      "Analytics",
+      "Global Reach",
+    ],
   },
   {
     name: "Informatica",
@@ -48,7 +64,12 @@ const solutions: Solution[] = [
     x: 78,
     y: 82,
     description: "Data management platform with health analytics capabilities",
-    features: ["Data Integration", "Health Analytics", "Cloud Platform", "Enterprise Scale"]
+    features: [
+      "Data Integration",
+      "Health Analytics",
+      "Cloud Platform",
+      "Enterprise Scale",
+    ],
   },
   {
     name: "Qlik",
@@ -56,7 +77,12 @@ const solutions: Solution[] = [
     x: 80,
     y: 84,
     description: "Business intelligence platform with wellness analytics",
-    features: ["Data Visualization", "Self-Service Analytics", "Real-time Insights", "Dashboard Creation"]
+    features: [
+      "Data Visualization",
+      "Self-Service Analytics",
+      "Real-time Insights",
+      "Dashboard Creation",
+    ],
   },
   // Challengers
   {
@@ -65,7 +91,12 @@ const solutions: Solution[] = [
     x: 75,
     y: 65,
     description: "Human capital management with employee wellness features",
-    features: ["HR Management", "Employee Benefits", "Workforce Analytics", "Legacy Integration"]
+    features: [
+      "HR Management",
+      "Employee Benefits",
+      "Workforce Analytics",
+      "Legacy Integration",
+    ],
   },
   {
     name: "IBM",
@@ -73,7 +104,12 @@ const solutions: Solution[] = [
     x: 72,
     y: 68,
     description: "Enterprise AI and analytics for workforce well-being",
-    features: ["Watson AI", "Predictive Analytics", "Enterprise Solutions", "Global Support"]
+    features: [
+      "Watson AI",
+      "Predictive Analytics",
+      "Enterprise Solutions",
+      "Global Support",
+    ],
   },
   {
     name: "Wellbeing Tech",
@@ -81,7 +117,12 @@ const solutions: Solution[] = [
     x: 70,
     y: 62,
     description: "Technology solutions focused on employee well-being",
-    features: ["Employee Engagement", "Health Monitoring", "Wellness Programs", "Corporate Integration"]
+    features: [
+      "Employee Engagement",
+      "Health Monitoring",
+      "Wellness Programs",
+      "Corporate Integration",
+    ],
   },
   // Visionaries
   {
@@ -89,8 +130,14 @@ const solutions: Solution[] = [
     category: "Visionaries",
     x: 45,
     y: 75,
-    description: "Digital mental health platform with innovative therapy approaches",
-    features: ["Digital Therapy", "Mental Health Support", "Personalized Care", "Modern Interface"]
+    description:
+      "Digital mental health platform with innovative therapy approaches",
+    features: [
+      "Digital Therapy",
+      "Mental Health Support",
+      "Personalized Care",
+      "Modern Interface",
+    ],
   },
   {
     name: "Holivia",
@@ -98,7 +145,12 @@ const solutions: Solution[] = [
     x: 42,
     y: 78,
     description: "Holistic wellness platform with AI-driven insights",
-    features: ["Holistic Wellness", "AI Insights", "Personalized Programs", "Lifestyle Integration"]
+    features: [
+      "Holistic Wellness",
+      "AI Insights",
+      "Personalized Programs",
+      "Lifestyle Integration",
+    ],
   },
   {
     name: "Teale",
@@ -106,15 +158,26 @@ const solutions: Solution[] = [
     x: 48,
     y: 72,
     description: "Employee well-being platform with advanced analytics",
-    features: ["Employee Wellness", "Advanced Analytics", "Engagement Tools", "Predictive Insights"]
+    features: [
+      "Employee Wellness",
+      "Advanced Analytics",
+      "Engagement Tools",
+      "Predictive Insights",
+    ],
   },
   {
     name: "MoodCapture",
     category: "Visionaries",
     x: 52,
     y: 76,
-    description: "Research-backed mood tracking and analysis (Dartmouth College)",
-    features: ["Mood Tracking", "Research-Based", "Academic Partnership", "Clinical Validation"]
+    description:
+      "Research-backed mood tracking and analysis (Dartmouth College)",
+    features: [
+      "Mood Tracking",
+      "Research-Based",
+      "Academic Partnership",
+      "Clinical Validation",
+    ],
   },
   {
     name: "Earkick",
@@ -122,7 +185,12 @@ const solutions: Solution[] = [
     x: 46,
     y: 74,
     description: "AI-powered mental health companion with innovative features",
-    features: ["AI Companion", "Mental Health Support", "Innovative UX", "Privacy-First"]
+    features: [
+      "AI Companion",
+      "Mental Health Support",
+      "Innovative UX",
+      "Privacy-First",
+    ],
   },
   // Niche Players
   {
@@ -131,7 +199,12 @@ const solutions: Solution[] = [
     x: 25,
     y: 45,
     description: "Workplace mood and productivity tracking solution",
-    features: ["Mood Tracking", "Productivity Analytics", "Team Insights", "Simple Interface"]
+    features: [
+      "Mood Tracking",
+      "Productivity Analytics",
+      "Team Insights",
+      "Simple Interface",
+    ],
   },
   {
     name: "mindDay",
@@ -139,7 +212,12 @@ const solutions: Solution[] = [
     x: 28,
     y: 42,
     description: "Daily mindfulness and mental wellness tracking",
-    features: ["Daily Check-ins", "Mindfulness", "Progress Tracking", "Personal Insights"]
+    features: [
+      "Daily Check-ins",
+      "Mindfulness",
+      "Progress Tracking",
+      "Personal Insights",
+    ],
   },
   {
     name: "Meditopia",
@@ -147,7 +225,12 @@ const solutions: Solution[] = [
     x: 32,
     y: 48,
     description: "Meditation and sleep focused wellness application",
-    features: ["Guided Meditation", "Sleep Stories", "Mindfulness Training", "Personalized Content"]
+    features: [
+      "Guided Meditation",
+      "Sleep Stories",
+      "Mindfulness Training",
+      "Personalized Content",
+    ],
   },
   {
     name: "Wysa",
@@ -155,7 +238,12 @@ const solutions: Solution[] = [
     x: 35,
     y: 45,
     description: "AI chatbot for mental health support and therapy",
-    features: ["AI Chatbot", "Mental Health Support", "24/7 Availability", "Evidence-Based"]
+    features: [
+      "AI Chatbot",
+      "Mental Health Support",
+      "24/7 Availability",
+      "Evidence-Based",
+    ],
   },
   {
     name: "Youper",
@@ -163,7 +251,12 @@ const solutions: Solution[] = [
     x: 30,
     y: 40,
     description: "AI-powered emotional health assistant",
-    features: ["Emotional Tracking", "AI Assistant", "Mood Analysis", "Personalized Insights"]
+    features: [
+      "Emotional Tracking",
+      "AI Assistant",
+      "Mood Analysis",
+      "Personalized Insights",
+    ],
   },
   {
     name: "Elomia Health",
@@ -171,19 +264,42 @@ const solutions: Solution[] = [
     x: 33,
     y: 43,
     description: "AI-powered psychology and mental health platform",
-    features: ["AI Psychology", "Mental Health Support", "Therapeutic Conversations", "Clinical Approach"]
-  }
+    features: [
+      "AI Psychology",
+      "Mental Health Support",
+      "Therapeutic Conversations",
+      "Clinical Approach",
+    ],
+  },
 ];
 
 const quadrants = [
-  { name: "Leaders", color: "bg-emerald-50 border-emerald-200", textColor: "text-emerald-800" },
-  { name: "Challengers", color: "bg-blue-50 border-blue-200", textColor: "text-blue-800" },
-  { name: "Visionaries", color: "bg-purple-50 border-purple-200", textColor: "text-purple-800" },
-  { name: "Niche Players", color: "bg-amber-50 border-amber-200", textColor: "text-amber-800" }
+  {
+    name: "Leaders",
+    color: "bg-emerald-50 border-emerald-200",
+    textColor: "text-emerald-800",
+  },
+  {
+    name: "Challengers",
+    color: "bg-blue-50 border-blue-200",
+    textColor: "text-blue-800",
+  },
+  {
+    name: "Visionaries",
+    color: "bg-purple-50 border-purple-200",
+    textColor: "text-purple-800",
+  },
+  {
+    name: "Niche Players",
+    color: "bg-amber-50 border-amber-200",
+    textColor: "text-amber-800",
+  },
 ];
 
 export default function Index() {
-  const [selectedSolution, setSelectedSolution] = useState<Solution | null>(null);
+  const [selectedSolution, setSelectedSolution] = useState<Solution | null>(
+    null,
+  );
   const [hoveredSolution, setHoveredSolution] = useState<Solution | null>(null);
 
   return (
@@ -197,8 +313,12 @@ export default function Index() {
                 <TrendingUp className="h-6 w-6 text-white" />
               </div>
               <div>
-                <h1 className="text-xl font-bold text-slate-900">Well-being Solutions</h1>
-                <p className="text-sm text-slate-600">Magic Quadrant Analysis</p>
+                <h1 className="text-xl font-bold text-slate-900">
+                  Well-being Solutions
+                </h1>
+                <p className="text-sm text-slate-600">
+                  Magic Quadrant Analysis
+                </p>
               </div>
             </div>
             <div className="flex items-center gap-3">
@@ -208,7 +328,10 @@ export default function Index() {
                   About QVTalk
                 </Button>
               </Link>
-              <Badge variant="outline" className="bg-blue-50 text-blue-700 border-blue-200">
+              <Badge
+                variant="outline"
+                className="bg-blue-50 text-blue-700 border-blue-200"
+              >
                 2025 Edition
               </Badge>
             </div>
@@ -223,9 +346,50 @@ export default function Index() {
             Magic Quadrant for Well-being Solutions
           </h2>
           <p className="text-lg text-slate-600 max-w-3xl mx-auto">
-            Comprehensive analysis of well-being and mental health platforms based on
-            completeness of vision and ability to execute.
+            Comprehensive analysis of well-being and mental health platforms
+            based on completeness of vision and ability to execute.
           </p>
+        </div>
+
+        {/* Prototype Call-to-Action */}
+        <div className="mb-12">
+          <Card className="p-6 bg-gradient-to-r from-blue-50 to-purple-50 border-blue-200 shadow-lg">
+            <div className="text-center">
+              <div className="flex items-center justify-center gap-2 mb-4">
+                <Zap className="h-6 w-6 text-blue-600" />
+                <h3 className="text-xl font-bold text-slate-900">
+                  Try QVTalk Prototype
+                </h3>
+              </div>
+              <p className="text-slate-700 mb-4 max-w-2xl mx-auto">
+                Experience our individual agents in action! Visit our initial
+                prototype deployment where you can try each agent individually
+                without orchestration to explore what use cases they can help
+                with. After trying it out, feel free to{" "}
+                <a
+                  href="mailto:info@qvtalk.fr?subject=QVTalk Prototype Feedback&body=Hello,%0A%0AI tried your QVTalk prototype and wanted to share my feedback:%0A%0A[Please share your experience and suggestions]%0A%0AThank you!"
+                  className="text-blue-600 hover:text-blue-800 underline font-medium"
+                >
+                  contact us
+                </a>{" "}
+                with your feedback!
+              </p>
+              <Button
+                asChild
+                className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white"
+              >
+                <a
+                  href="https://replitqvtalk.onrender.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="gap-2"
+                >
+                  <TrendingUp className="h-4 w-4" />
+                  Try Prototype
+                </a>
+              </Button>
+            </div>
+          </Card>
         </div>
 
         <div className="grid lg:grid-cols-3 gap-8">
@@ -276,25 +440,29 @@ export default function Index() {
                   <div
                     key={index}
                     className={`absolute transform -translate-x-1/2 -translate-y-1/2 cursor-pointer transition-all duration-200 ${
-                      hoveredSolution === solution ? 'scale-110 z-20' : 'z-10'
+                      hoveredSolution === solution ? "scale-110 z-20" : "z-10"
                     }`}
                     style={{
                       left: `${solution.x}%`,
-                      top: `${100 - solution.y}%`
+                      top: `${100 - solution.y}%`,
                     }}
                     onMouseEnter={() => setHoveredSolution(solution)}
                     onMouseLeave={() => setHoveredSolution(null)}
                     onClick={() => setSelectedSolution(solution)}
                   >
-                    <div className={`relative ${
-                      solution.isQVTalk
-                        ? 'bg-gradient-to-br from-blue-600 to-purple-600 text-white'
-                        : 'bg-white border-2 border-slate-300 text-slate-800'
-                    } rounded-lg px-3 py-2 shadow-lg hover:shadow-xl transition-all`}>
+                    <div
+                      className={`relative ${
+                        solution.isQVTalk
+                          ? "bg-gradient-to-br from-blue-600 to-purple-600 text-white"
+                          : "bg-white border-2 border-slate-300 text-slate-800"
+                      } rounded-lg px-3 py-2 shadow-lg hover:shadow-xl transition-all`}
+                    >
                       {solution.isQVTalk && (
                         <Star className="absolute -top-2 -right-2 h-5 w-5 text-yellow-400 fill-current" />
                       )}
-                      <div className="text-xs font-semibold">{solution.name}</div>
+                      <div className="text-xs font-semibold">
+                        {solution.name}
+                      </div>
                     </div>
                   </div>
                 ))}
@@ -305,11 +473,13 @@ export default function Index() {
           {/* Solution Details */}
           <div className="space-y-6">
             {selectedSolution ? (
-              <Card className={`p-6 border-2 transition-all ${
-                selectedSolution.isQVTalk
-                  ? 'border-blue-300 bg-gradient-to-br from-blue-50 to-purple-50'
-                  : 'border-slate-200 bg-white/70'
-              } backdrop-blur-sm shadow-lg`}>
+              <Card
+                className={`p-6 border-2 transition-all ${
+                  selectedSolution.isQVTalk
+                    ? "border-blue-300 bg-gradient-to-br from-blue-50 to-purple-50"
+                    : "border-slate-200 bg-white/70"
+                } backdrop-blur-sm shadow-lg`}
+              >
                 <div className="flex items-start gap-3 mb-4">
                   {selectedSolution.isQVTalk && (
                     <div className="h-10 w-10 bg-gradient-to-br from-blue-600 to-purple-600 rounded-lg flex items-center justify-center flex-shrink-0">
@@ -325,11 +495,15 @@ export default function Index() {
                         </Badge>
                       )}
                     </h3>
-                    <p className="text-sm text-slate-600 mt-1">{selectedSolution.category}</p>
+                    <p className="text-sm text-slate-600 mt-1">
+                      {selectedSolution.category}
+                    </p>
                   </div>
                 </div>
 
-                <p className="text-slate-700 mb-4">{selectedSolution.description}</p>
+                <p className="text-slate-700 mb-4">
+                  {selectedSolution.description}
+                </p>
 
                 <div className="space-y-3">
                   <h4 className="font-semibold text-slate-900 flex items-center gap-2">
@@ -338,7 +512,10 @@ export default function Index() {
                   </h4>
                   <div className="grid grid-cols-1 gap-2">
                     {selectedSolution.features.map((feature, idx) => (
-                      <div key={idx} className="flex items-center gap-2 text-sm text-slate-700">
+                      <div
+                        key={idx}
+                        className="flex items-center gap-2 text-sm text-slate-700"
+                      >
                         <div className="h-1.5 w-1.5 bg-blue-500 rounded-full"></div>
                         {feature}
                       </div>
@@ -360,9 +537,12 @@ export default function Index() {
               <Card className="p-6 bg-white/70 backdrop-blur-sm border-slate-200/50 shadow-lg">
                 <div className="text-center">
                   <Users className="h-12 w-12 text-slate-400 mx-auto mb-3" />
-                  <h3 className="text-lg font-semibold text-slate-900 mb-2">Select a Solution</h3>
+                  <h3 className="text-lg font-semibold text-slate-900 mb-2">
+                    Select a Solution
+                  </h3>
                   <p className="text-slate-600 text-sm">
-                    Click on any solution in the quadrant to view detailed information
+                    Click on any solution in the quadrant to view detailed
+                    information
                   </p>
                 </div>
               </Card>
@@ -370,12 +550,18 @@ export default function Index() {
 
             {/* Legend */}
             <Card className="p-6 bg-white/70 backdrop-blur-sm border-slate-200/50 shadow-lg">
-              <h3 className="text-lg font-semibold text-slate-900 mb-4">Quadrant Legend</h3>
+              <h3 className="text-lg font-semibold text-slate-900 mb-4">
+                Quadrant Legend
+              </h3>
               <div className="space-y-3">
                 {quadrants.map((quadrant, idx) => (
                   <div key={idx} className="flex items-center gap-3">
-                    <div className={`w-4 h-4 rounded ${quadrant.color} border`}></div>
-                    <span className={`text-sm font-medium ${quadrant.textColor}`}>
+                    <div
+                      className={`w-4 h-4 rounded ${quadrant.color} border`}
+                    ></div>
+                    <span
+                      className={`text-sm font-medium ${quadrant.textColor}`}
+                    >
                       {quadrant.name}
                     </span>
                   </div>
@@ -388,7 +574,8 @@ export default function Index() {
         {/* Footer */}
         <div className="mt-16 text-center">
           <p className="text-slate-500 text-sm">
-            Analysis based on market research, feature completeness, and execution capability
+            Analysis based on market research, feature completeness, and
+            execution capability
           </p>
         </div>
       </div>
